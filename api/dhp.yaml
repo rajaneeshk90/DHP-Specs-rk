@@ -2006,7 +2006,7 @@ components:
             - currency
         type:
           type: string
-          description: Stage at which the payment is expected
+          descriptor: Stage at which the payment is expected
           enum:
             - ON-ORDER
             - PRE-FULFILLMENT
