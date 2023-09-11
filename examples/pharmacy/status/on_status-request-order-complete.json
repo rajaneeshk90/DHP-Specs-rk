@@ -79,8 +79,8 @@
           ],
           "state": {
             "descriptor": {
-              "code": "order-picked-up",
-              "name": "Order has been picked up"
+              "code": "order-delivered",
+              "name": "Order has been delivered"
             }
           }
         }

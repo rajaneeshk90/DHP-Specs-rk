@@ -8,38 +8,35 @@
     },
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
     "message_id": "$bb579fb8-cb82-4824-be12-fcbc405b6608",
-    "action": "select",
+    "action": "search",
     "timestamp": "2023-05-25T05:23:03.443Z",
     "version": "1.1.0",
     "bap_uri": "https://dhp-network-bap.becknprotocol.io/",
     "bap_id": "dhp-bap.becknprotocol.io",
-    "bpp_uri": "https://dhp-network-bpp.becknprotocol.io/",
-    "bpp_id": "dhp-bpp.becknprotocol.io",
     "ttl": "PT10M"
   },
   "message": {
-    "order": {
+    "intent": {
       "provider": {
-        "id": "e92e7a6e-1f20-4a8d-b343-956e0d45a48c"
+        "descriptor": {
+          "name": "Mediplus pharmacy"
+        }
       },
-      "items": [
-        {
-          "id": "fb0999b7-7755-46d6-a2ed-b286b7c98436",
-          "quantity": {
-            "selected": {
-              "measure": {
-                "value": "2",
-                "unit": "units"
+      "fulfillment": {
+        "type": "HOME-DELIVERY",
+        "stops": [
+          {
+            "location": {
+              "gps": "12.423423,77.325647",
+              "radius": {
+                "type": "CONSTANT",
+                "value": "5",
+                "unit": "km"
               }
             }
           }
-        }
-      ],
-      "fulfillments": [
-        {
-          "id": "ful-02"
-        }
-      ]
+        ]
+      }
     }
   }
 }

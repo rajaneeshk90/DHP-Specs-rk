@@ -1,58 +1,145 @@
 {
   "context": {
-    "country": "IND",
-    "bpp_uri": "https://api.health-bpp.com/dobpp/beckn/7f7896dd-787e-4a0b-8675-e9e6fe93bb8f",
-    "domain": "nic2004:85110",
-    "timestamp": "2023-09-26T09:45:00.987Z",
-    "bap_id": "health-bap.com",
-    "bpp_id": "pharmacy-xyz",
-    "transaction_id": "p4h5a6r7m8a9c0y1-54321",
-    "message_id": "c4a5n6c7e8l9-98765",
-    "city": "std:082",
-    "core_version": "1.1.0",
+    "domain": "dhp:0.7.3",
+    "location": {
+      "country": {
+        "code": "IND"
+      }
+    },
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "message_id": "$bb579fb8-cb82-4824-be12-fcbc405b6608",
     "action": "on_cancel",
-    "bap_uri": "https://api.health-bap.com/pilot/bap/pharmacy/v1"
+    "timestamp": "2023-05-25T05:23:03.443Z",
+    "version": "1.1.0",
+    "bap_uri": "https://dhp-network-bap.becknprotocol.io/",
+    "bap_id": "dhp-bap.becknprotocol.io",
+    "bpp_uri": "https://dhp-network-bpp.becknprotocol.io/",
+    "bpp_id": "dhp-bpp.becknprotocol.io",
+    "ttl": "PT10M"
   },
   "message": {
     "order": {
-      "id": "medication-order-123",
+      "id": "853c7593-f4bf-4557-8832-118a591787ba",
+      "status": "CANCELLED",
       "provider": {
-        "id": "pharmacy-xyz",
+        "id": "e92e7a6e-1f20-4a8d-b343-956e0d45a48c",
         "descriptor": {
-          "name": "XYZ Pharmacy"
+          "name": "QuickPharma",
+          "short_desc": "QuickPharma Pvt Ltd",
+          "images": [
+            {
+              "url": "https://quickPharma.in/images/logo.png"
+            }
+          ]
         }
       },
-      "patient": {
-        "id": "patient-123",
-        "descriptor": {
-          "name": "Jane Smith"
-        }
-      },
-      "quote": {
-        "value": "200",
-        "currency": "INR"
-      },
-      "fulfillment": {
-        "id": "fulf_medication-order-123",
-        "state": {
+      "items": [
+        {
+          "id": "fb0999b7-7755-46d6-a2ed-b286b7c98436",
           "descriptor": {
-            "code": "SERVICE_CANCELLED",
-            "name": "Service Cancelled"
-          }
-        },
-        "start": {
-          "location": {
-            "gps": "12.345678, 98.765432",
-            "address": {
-              "country": "India",
-              "state": "Karnataka",
-              "city": "Bangalore",
-              "street": "Pharmacy Lane",
-              "area_code": "560004"
+            "code": "benadryl",
+            "name": "Benadryl cough syrup"
+          },
+          "price": {
+            "value": "100",
+            "currency": "INR"
+          },
+          "quantity": {
+            "selected": {
+              "measure": {
+                "value": "2",
+                "unit": "units"
+              }
             }
           }
         }
-      }
+      ],
+      "fulfillments": [
+        {
+          "id": "ful-02",
+          "type": "HOME-DELIVERY",
+          "stops": [
+            {
+              "type": "start",
+              "time": {
+                "timestamp": "2023-09-15T08:00:00Z"
+              },
+              "location": {
+                "gps": "12.423423,77.325647"
+              }
+            },
+            {
+              "type": "end",
+              "time": {
+                "timestamp": "2023-09-15T18:30:00Z"
+              },
+              "location": {
+                "gps": "12.423483,77.325697"
+              }
+            }
+          ],
+          "state": {
+            "descriptor": {
+              "code": "order-cancelled",
+              "name": "Order has been cancelled"
+            }
+          }
+        }
+      ],
+      "quote": {
+        "price": {
+          "value": "250",
+          "currency": "INR"
+        },
+        "breakup": [
+          {
+            "title": "Benadryl 2 units",
+            "price": {
+              "currency": "INR",
+              "value": "200"
+            }
+          },
+          {
+            "title": "delivery charge",
+            "price": {
+              "currency": "INR",
+              "value": "50"
+            }
+          }
+        ]
+      },
+      "billing": {
+        "name": "Alice Smith",
+        "address": "Apt 303, Maple Towers, Richmond Road, 560001",
+        "email": "alice.smith@example.com",
+        "phone": "+91-7777777777"
+      },
+      "payments": [
+        {
+          "type": "PRE-FULFILLMENT",
+          "status": "PAID",
+          "params": {
+            "amount": "250",
+            "currency": "INR"
+          }
+        }
+      ],
+      "cancellation_terms": [
+        {
+          "fulfillment_state": {
+            "descriptor": {
+              "code": "in-progress"
+            }
+          },
+          "cancellation_fee": {
+            "percentage": "30%"
+          },
+          "external_ref": {
+            "mimetype": "text/html",
+            "url": "https://quickPharma.in/charge/tnc.html"
+          }
+        }
+      ]
     }
   }
 }
