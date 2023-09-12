@@ -33,6 +33,17 @@
               }
             }
           }
+        },
+        {
+          "id": "1cef39d8-72d0-46f7-99ca-3f18f4bda8e3",
+          "quantity": {
+            "selected": {
+              "measure": {
+                "value": "3",
+                "unit": "units"
+              }
+            }
+          }
         }
       ],
       "fulfillments": [

@@ -50,6 +50,25 @@
               }
             }
           }
+        },
+        {
+          "id": "1cef39d8-72d0-46f7-99ca-3f18f4bda8e3",
+          "descriptor": {
+            "code": "hycodan",
+            "name": "Hycodan"
+          },
+          "price": {
+            "value": "150",
+            "currency": "INR"
+          },
+          "quantity": {
+            "selected": {
+              "measure": {
+                "value": "3",
+                "unit": "units"
+              }
+            }
+          }
         }
       ],
       "fulfillments": [
@@ -86,7 +105,7 @@
       ],
       "quote": {
         "price": {
-          "value": "250",
+          "value": "700",
           "currency": "INR"
         },
         "breakup": [
@@ -95,6 +114,13 @@
             "price": {
               "currency": "INR",
               "value": "200"
+            }
+          },
+          {
+            "title": "hycodan 3 units",
+            "price": {
+              "currency": "INR",
+              "value": "450"
             }
           },
           {
@@ -117,8 +143,8 @@
           "type": "PRE-FULFILLMENT",
           "status": "NOT-PAID",
           "params": {
-            "url": "payto://ban/1234567890?amount=INR:250&ifsc=ABCD0000123&message=medicine-payment",
-            "amount": "250",
+            "url": "payto://ban/1234567890?amount=INR:700&ifsc=ABCD0000123&message=medicine-payment",
+            "amount": "700",
             "currency": "INR"
           }
         }

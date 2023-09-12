@@ -50,6 +50,25 @@
               }
             }
           }
+        },
+        {
+          "id": "1cef39d8-72d0-46f7-99ca-3f18f4bda8e3",
+          "descriptor": {
+            "code": "hycodan",
+            "name": "Hycodan"
+          },
+          "price": {
+            "value": "150",
+            "currency": "INR"
+          },
+          "quantity": {
+            "selected": {
+              "measure": {
+                "value": "3",
+                "unit": "units"
+              }
+            }
+          }
         }
       ],
       "fulfillments": [
@@ -74,7 +93,7 @@
       ],
       "quote": {
         "price": {
-          "value": "200",
+          "value": "650",
           "currency": "INR"
         },
         "breakup": [
@@ -83,6 +102,13 @@
             "price": {
               "currency": "INR",
               "value": "200"
+            }
+          },
+          {
+            "title": "hycodan 3 units",
+            "price": {
+              "currency": "INR",
+              "value": "450"
             }
           }
         ]
