@@ -19,12 +19,12 @@
     "intent": {
       "category": {
         "descriptor": {
-          "name": "orthopaedic"
+          "code": "orthopaedic"
         }
       },
       "item": {
         "descriptor": {
-          "name": "consultation"
+          "code": "medical-consultation"
         }
       }
     }

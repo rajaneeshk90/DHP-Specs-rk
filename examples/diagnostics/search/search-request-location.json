@@ -26,6 +26,14 @@
         "descriptor": {
           "name": "ecg"
         }
+      },
+      "location": {
+        "gps": "12.423423,77.325647",
+        "radius": {
+          "type": "CONSTANT",
+          "value": "5",
+          "unit": "km"
+        }
       }
     }
   }

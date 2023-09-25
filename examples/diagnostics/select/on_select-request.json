@@ -22,26 +22,24 @@
       "provider": {
         "id": "289edce4-d002-4962-b311-4c025e22b4f6",
         "descriptor": {
-          "name": "Example Hospitals",
-          "short_desc": "Example Hospitals Pvt Ltd",
+          "name": "GioLabs Pvt Ltd",
+          "short_desc": "X-rays, tests and more",
           "images": [
             {
-              "url": "https://ExampleHospitals.in/images/logo.png"
+              "url": "https://giolabs.in/images/logo.png"
             }
           ]
         }
       },
       "items": [
         {
-          "id": "cons-01",
+          "id": "cardiology-01",
           "descriptor": {
-            "code": "consultation",
-            "name": "Dr Asthana",
-            "short_desc": "Orthopaedic Surgeon",
-            "long_desc": "About the Doctor: With over 20 years of experience in Orthopaedics"
+            "code": "ecg",
+            "name": "Electrocardiogram test"
           },
           "price": {
-            "value": "300",
+            "value": "3000",
             "currency": "INR"
           },
           "fulfillment_ids": [
@@ -304,15 +302,15 @@
       ],
       "quote": {
         "price": {
-          "value": "300",
+          "value": "3000",
           "currency": "INR"
         },
         "breakup": [
           {
-            "title": "General Physician Consultation",
+            "title": "ECG Procedure",
             "price": {
               "currency": "INR",
-              "value": "300"
+              "value": "3000"
             }
           }
         ]
