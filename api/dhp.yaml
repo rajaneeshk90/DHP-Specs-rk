@@ -8,9 +8,9 @@ paths:
   /search:
     post:
       tags:
-        - DHP Provider Platform
-        - DHP Gateway (DG)
-      description: Search for services by intent
+        - Beckn Provider Platform (BPP)
+        - Beckn Gateway (BG)
+      description: BAP declares the customer's intent to buy/avail healthcare services/products.
       requestBody:
         description: DHP-Consumer Platform searches for healthcare services/product
         content:
