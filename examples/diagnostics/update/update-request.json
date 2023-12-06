@@ -1,0 +1,28 @@
+{
+  "context": {
+    "domain": "nic2004:85110",
+    "country": "IND",
+    "city": "std:080",
+    "action": "update",
+    "core_version": "1.1.0",
+    "bap_id": "https://example-bap.com/",
+    "bap_uri": "https://example-bap.com/dhp.io",
+    "bpp_id": "https://healthcare-consultation-provider.com",
+    "bpp_uri": "https://healthcare-consultation-provider.com/beckn/",
+    "transaction_id": "c1a2n3u4p5d6-12345",
+    "message_id": "update-fulfillment-consultation-1",
+    "timestamp": "2023-09-09T17:00:00.052Z"
+  },
+  "message": {
+    "update_target": "order.billing",
+    "order": {
+      "id": "759b905c-5a30-4d18-a6af-0decbac9282f",
+      "billing": {
+        "name": "John Doe",
+        "address": "Villa 5, Green Valley, Malleshwaram, 560012",
+        "email": "john.doe@example.com",
+        "phone": "+91-9999999999"
+      }
+    }
+  }
+}
