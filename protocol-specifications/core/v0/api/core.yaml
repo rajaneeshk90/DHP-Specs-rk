@@ -74,7 +74,7 @@ paths:
                     intent:
                       provider:
                         descriptor:
-                          name: MAX Hospitals
+                          name: Example Hospitals
                           
               Get services of a specific healthcare service provider:
                 value:
@@ -723,7 +723,7 @@ paths:
                       providers:
                         - id: 289edce4-d002-4962-b311-4c025e22b4f6
                           descriptor:
-                            name: MAX Hospitals
+                            name: Example Hospitals
                           categories:
                             - id: '1'
                               descriptor:
@@ -829,7 +829,7 @@ paths:
                       providers:
                         - id: 289edce4-d002-4962-b311-4c025e22b4f6
                           descriptor:
-                            name: MAX Hospitals
+                            name: Example Hospitals
                           categories:
                             - id: '1'
                               descriptor:
@@ -855,7 +855,7 @@ paths:
                                 location:
                                   gps: 12.4535445,77.9283792
                                   address:
-                                    name: Max Hospitals
+                                    name: Example Hospitals
                                     building: ABC Building
                                     street: EFG Street
                                     locality: string
@@ -881,7 +881,7 @@ paths:
                                 location:
                                   gps: 12.4535445,77.9283792
                                   address:
-                                    name: Max Hospitals
+                                    name: Example Hospitals
                                     building: ABC Building
                                     street: EFG Street
                                     locality: string
@@ -907,7 +907,7 @@ paths:
                                 location:
                                   gps: 12.4535445,77.9283792
                                   address:
-                                    name: Max Hospitals
+                                    name: Example Hospitals
                                     building: ABC Building
                                     street: EFG Street
                                     locality: string
@@ -933,7 +933,7 @@ paths:
                                 location:
                                   gps: 12.4535445,77.9283792
                                   address:
-                                    name: Max Hospitals
+                                    name: Example Hospitals
                                     building: ABC Building
                                     street: EFG Street
                                     locality: string
@@ -1147,7 +1147,7 @@ paths:
                       provider:
                         id: '1'
                         descriptor:
-                          name: MAX Hospitals
+                          name: Example Hospitals
                       items:
                         - id: '1'
                           descriptor:
@@ -1265,7 +1265,7 @@ paths:
                       provider:
                         id: '1'
                         descriptor:
-                          name: MAX Hospitals
+                          name: Example Hospitals
                       items:
                         - id: '1'
                           descriptor:
@@ -1466,7 +1466,7 @@ paths:
                       provider:
                         id: '1'
                         descriptor:
-                          name: MAX Hospitals
+                          name: Example Hospitals
                       state: PROVISIONALLY_BOOKED
                       items:
                         - id: '1'
@@ -1645,7 +1645,7 @@ paths:
                       provider:
                         id: '1'
                         descriptor:
-                          name: MAX Hospitals
+                          name: Example Hospitals
                       state: PROVISIONALLY_BOOKED
                       items:
                         - id: '1'
@@ -1714,7 +1714,7 @@ paths:
                       provider:
                         id: '1'
                         descriptor:
-                          name: MAX Hospitals
+                          name: Example Hospitals
                       state: PROVISIONALLY_BOOKED
                       items:
                         - id: '1'
@@ -1783,7 +1783,7 @@ paths:
                       provider:
                         id: '1'
                         descriptor:
-                          name: MAX Hospitals
+                          name: Example Hospitals
                       state: BOOKED
                       items:
                         - id: '1'
@@ -1852,7 +1852,7 @@ paths:
                       provider:
                         id: '1'
                         descriptor:
-                          name: MAX Hospitals
+                          name: Example Hospitals
                       state: BOOKED
                       items:
                         - id: '1'
@@ -1921,7 +1921,7 @@ paths:
                       provider:
                         id: '1'
                         descriptor:
-                          name: MAX Hospitals
+                          name: Example Hospitals
                       state: BOOKED
                       items:
                         - id: '1'
