@@ -74,8 +74,7 @@ paths:
                     intent:
                       provider:
                         descriptor:
-                          name: Example Hospitals
-                          
+                          name: Example Hospitals            
               Get services of a specific healthcare service provider:
                 value:
                   context:
